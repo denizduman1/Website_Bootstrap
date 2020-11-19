@@ -1,0 +1,107 @@
+@media (max-width: 767px) {
+    .yazilimkurslari{
+        margin-top: 20px;
+    }
+    .card-ders-resim{
+        height: 50%;
+        width: 100px;
+    }
+}
+@media (max-width:1200px){
+    .deniz-nav-baslik{
+        font-size: 14px;
+    }
+}
+.tum-hak{
+    margin-top: -1rem;
+    margin-bottom: 1rem;
+}
+.deniz-nav{
+    background-color:#4582EC;
+    font-weight: 600;
+}
+.navbot{
+    background-color: #f0ad4e;
+    font-weight: 600;
+}
+
+body{
+    background-color: rgb(240, 240, 240);
+}
+
+.card-body{
+    position: relative;
+    z-index: 2;
+}
+
+.card-profile-large .card-header{
+    position: relative;
+    overflow: hidden;
+    height: 10.5rem;
+}
+.card-header{
+    padding:1.125rem 1.55rem;
+    background: none;
+}
+.deniz-img-1{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    object-fit: cover;
+}
+.deniz-img-2{
+    margin-top: -4.0rem;
+    width: 35%;
+    border-radius: 50%;
+}
+.text-center{
+    text-align: center !important;
+}
+.card-p{
+    margin-top: -.3rem;
+}
+
+.list-group-item:hover{
+    background-color: rgb(231, 227, 227);
+}
+
+.card-ders{
+    display: grid;
+    grid-template-columns: .6fr 3fr;
+}
+
+.card-ders-resim{
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.card-ders-icerik{
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.img-ders{
+    width: 100%;
+    height: 100%;
+}
+
+p{
+    color: #495057;
+}
+
+.card-body-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    height: 8px;
+}
+
+.btn-deniz{
+    font-size: 13px;
+    font-weight: 500;
+}
+
